@@ -1,0 +1,79 @@
+body{
+  background: linear-gradient(135deg, red 25%, transparent 25%) -50px 0,
+    linear-gradient(225deg, orange 25%, transparent 25%) -50px 0,
+    linear-gradient(315deg, yellow 25%, transparent 25%),
+    linear-gradient(45deg, green 25%, transparent 25%);
+  background-size: 100px 100px;
+  background-color: white;
+  height: 250px;
+}
+* {
+  margin: 0;
+  padding: 0;	
+}
+
+#prompt-container {
+  font-family: Courier New, Courier, monospace;
+  font-size: 24px;
+  letter-spacing: 3px;
+  /* Too Large  Temporary*/
+  margin-bottom: 1em;
+  background: rgba(250, 248, 248, 0.8);
+}
+
+#yellow-block {
+  position: absolute;
+  margin-top: 8px;
+  max-width: 2px;
+  min-width: 1px;
+  height: 15px;
+  background-color: yellow;
+  /* padding: 1px */
+}
+
+.keyboard-container {
+  margin-top: 200px;
+  background:rgba(250, 248, 248, 0.8);
+}
+
+.keys-row > .key {
+  background: rgba(250, 248, 248, 0.8);
+
+}
+
+#target-letter {
+  font-size: 38px;  
+  background: rgba(250, 248, 248, 0.8);
+
+}
+
+#timer {
+  justify-content: center;
+  text-align: center;
+  font-size: 38px;
+  background: rgba(250, 248, 248, 0.8);
+}
+
+.keys-row {
+  margin-top: 40px;
+  padding: 10px 0;
+  background: rgba(250, 248, 248, 0.8)e;
+}
+
+#feedback {
+  display: flex;
+  justify-content: center;
+background: rgba(250, 248, 248, 0.8);
+  margin: 0 auto;
+  /* flex-shrink: inherit ;*/
+  text-align: center; 
+  font-size: 20px;
+}
+.glyphicon-ok {  
+  color: #1DA237
+}
+
+.glyphicon-remove {
+  color : #CD2626
+}
+
